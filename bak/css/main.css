@@ -1,0 +1,174 @@
+/*BODY*/
+* {
+  outline:0;
+  padding:0;margin:0;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+#int-main-section > .int-section {background-color:#fff;padding:13px;position: relative;margin:8px 0 0 0;}
+.int-section > div > h2 {display: block;padding-bottom:13px;}
+.int-section > div > h2 > img {display:block;height:16px;}
+.int-section > div > span > a > img {display:block;height:20px;}
+.int-section > div > span {display: block;position:absolute;top:0;right: 0;top:13px;right: 13px;}
+.int-section > div > iframe {width:100%;overflow:hidden;}
+#int-pagination {text-align: center;}
+#int-pagination > p {display: block;margin:8px 0 0 0;}
+#int-pagination > p > a {display: inline-block;*display:inline;*zoom:1;vertical-align: middle;line-height: 1em;}
+#int-pagination > p > a > img {height: 9px;}
+#int-pagination > p > a {margin-top:-3px;padding:0 2px;}
+#int-pagination > p > .prev,
+#int-pagination > p > .next {margin:0;padding:0 13px;}
+#int-pagination > p > .prev > img,
+#int-pagination > p > .next > img {height: 16px;}
+#int-pagination > p > .int-pagination-button > img {display:block;}
+#int-pagination > p > .int-pagination-button {background:url(../image/bullet_hover.png) no-repeat -200px -200px;background-size:9px 9px;}
+#int-pagination > p > .int-pagination-button:hover,
+#int-pagination > p > .int-pagination-button.select {background-position:2px 0px;}
+#int-pagination > p > .int-pagination-button:hover img, 
+#int-pagination > p > .int-pagination-button.select img {visibility:hidden;}
+
+/*
+section { border-bottom:5px solid #ddd; background-color:#FFF; margin:10px 0; }
+*/
+
+.n-iframe { 
+margin: 0 auto;
+padding-bottom: 73%; 
+max-width: 85%; 
+height: 0;  
+position: relative;
+overflow: hidden; 
+}
+.f-iframe { 
+margin: 0;
+padding-bottom: 84%; 
+max-width: 100%; 
+height: 0;  
+position: relative;
+overflow: hidden; 
+}
+.w-iframe { 
+margin: 0;
+padding-bottom: 35%; 
+max-width: 100%; 
+height: 0;  
+position: relative;
+overflow: hidden; 
+}
+.S-iframe { 
+margin: 0;
+padding-bottom: 98%; 
+max-width: 100%; 
+height: 0;  
+position: relative;
+overflow: hidden; 
+}
+.G-iframe { 
+margin: 0;
+padding-bottom: 106%; 
+max-width: 100%; 
+height: 0;  
+position: relative;
+overflow: hidden; 
+}
+
+
+@media (min-width:360px) { 
+	.S-iframe { padding-bottom:95%;}
+	.f-iframe { padding-bottom:80%; }
+}
+@media (min-width:375px) { 
+	.S-iframe { padding-bottom: 94%;}
+	.f-iframe { padding-bottom:79%; }
+	.G-iframe { padding-bottom:95%; }
+}
+@media (min-width:414px) { 
+	.S-iframe { padding-bottom:93%; }
+	.G-iframe { padding-bottom:88%; }
+
+}
+@media (min-width:450px) { 
+	.S-iframe { padding-bottom: 89%;}
+	.G-iframe { padding-bottom:80%; }
+}
+@media (min-width:500px) { 
+	.G-iframe { padding-bottom:73%; }
+
+}
+@media (min-width:560px) { 
+	.G-iframe { padding-bottom:65%; }
+
+}
+@media (min-width:640px) { 
+	.S-iframe { padding-bottom: 81%; }
+	.G-iframe { padding-bottom:56%; }
+}
+@media (min-width:768px) { 
+	.S-iframe { padding-bottom:88%; }
+
+}
+
+.n-iframe iframe,
+.S-iframe iframe,
+.G-iframe iframe,
+.w-iframe iframe,
+.f-iframe iframe { 
+margin: 0;
+padding: 0;  
+width: 100%; 
+height: 100%;
+position: absolute; 
+top: 0; 
+left: 0; 
+}
+
+.panel {
+  width:100%;
+  display: block;
+ /* margin:10px 0;*/
+  background-color: #FFF;
+}
+.panel_header {
+  font-size: 17px;
+  font-weight:700;
+  border-bottom:2px solid #e3e3e3;
+  padding: 15px 10px;
+}
+.panel_body {
+  padding: 5px;
+}
+.pull-right { float:right; }
+.arrow_more { max-height:17px; margin:0 7px 3px 0; }
+
+#uriFrame { height:0px !important; visibility: hidden;  }
+
+#banner_middle,
+#banner_bottom,
+#banner_top {
+  width:100%;
+}
+#banner_middle .container,
+#banner_bottom .container,
+#banner_top .container {
+  text-align: center;
+}
+#banner_top { background-color: #fff; margin-top:7px; text-align:center; }
+#banner_middle { background-color: #2d3e50; }
+#banner_bottom { background-color: #2d3e50; }
+#banner_middle img,
+#banner_bottom img,
+#banner_top img {
+  width:320px;
+}
+#banner_middle iframe,
+#banner_bottom iframe,
+#banner_top iframe {
+  vertical-align: bottom;
+}
