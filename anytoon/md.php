@@ -30,7 +30,7 @@ include "lib/media_code.php";
                 s.type = 'text/javascript';
                 s.async = true;
                 s.id='hiadone_shortcut';
-                s.src = "http://shortcut.newspopcon.com/views/shortcut/shortcut.js?brd_key=campaign&post_id=5&v=0.111";
+                s.src = "http://shortcut.dbpopcon.com/views/shortcut/shortcut.js?brd_key=shortcut&post_md=auction&v=0.111";
                 var x = document.getElementsByTagName('script')[0];
                 x.parentNode.insertBefore(s, x);
               }

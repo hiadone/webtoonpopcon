@@ -32,7 +32,7 @@ include "lib/media_code.php";
                 s.type = 'text/javascript';
                 s.async = true;
                 s.id='hiadone_shortcut';
-                s.src = "http://shortcut.newspopcon.com/views/shortcut/shortcut.js?brd_key=campaign&post_id=5&v=0.111";
+                s.src = "http://shortcut.dbpopcon.com/views/shortcut/shortcut.js?brd_key=shortcut&post_md=auction&v=0.111";
                 var x = document.getElementsByTagName('script')[0];
                 x.parentNode.insertBefore(s, x);
               }
@@ -85,58 +85,32 @@ var MD = "<?=$MD?>";
 		}
 */
 	$(document).ready(function(){
-       <?php 
-                if($post_id){
-                        ?>
-                         popstateStat("<?php echo $post_id?>");
-                        <?php
-                    
-                }
-                 ?>
+    <?php if($_GET['brd_key']==='mobusi'){ ?>
+  
+    $('section').bind('click',function(){
+      $.ajax({
+          type: "GET", 
+          async: true,
+          data: "PREFIJO=<?=$_GET['param2']?>&PUBID=<?=$_GET['param3']?>&PIXEL=<?=$_GET['param1']?>", 
+          url: "http://dbpopcon.com/postact/mobusi_click/<?=$_GET['MD']?>/<?=$_GET['brd_key']?>",
+          dataType : 'json',
+          success: function(data) 
+          {
+          },
+          error: function(xhr, status, error) {} 
+      });
+
+  });
+
+<?php } ?>
+
+      
 
         
-     //   popstateStat("<?php echo $post_id?>");
+    
 	});
 
-    function popstateStat(post_id,link_id) {
-        if(post_id){
-            var session_id="no_session";
-			/*
-            $.ajax({
-                type: "GET", 
-                async: false,
-                url: "../session_chk.php", 
-                dataType : 'json',
-                success: function(data) 
-                {
-                    
-                    if(data.result==1){
-                        session_id=data.session_id;
-                        
-                    }
-                },
-                error: function(xhr, status, error) {} 
-
-
-            });
-			
-            if(link_id)
-                var url = "http://admin.newdealpopcon.com/postact/popstateStat/"+post_id+"/"+session_id+"/"+link_id+"/?referer=<?php echo $referer?>";
-            else 
-                var url = "http://admin.newdealpopcon.com/postact/popstateStat/"+post_id+"/"+session_id+"/?referer=<?php echo $referer?>";
-            $.ajax({
-                type: "GET", 
-                async: true,
-                url: url, 
-                dataType : 'json',
-                success: function(data) 
-                {
-                },
-                error: function(xhr, status, error) {} 
-            });
-            */
-        }
-    }
+   
 </script>
 <?php if ( $popstate === 'enable' && empty($ad) ) { ?>
 <script language = "javascript"> 
@@ -153,7 +127,7 @@ var MD = "<?=$MD?>";
           popped = true
           if (initialPop) return;
 			
- 		  popstateStat("<?php echo $post_id?>","<?php echo $link_id?>");
+ 		  
           if(MD=="default") ShowShopEmpty('05W1');
           else parent.top.location.replace("<?=$locationUrl?>");
           
@@ -185,6 +159,8 @@ function ShowShopEmpty(value) {
 </script>
 <?php } ?>
 
+
+ 
 
 </head>
 
@@ -268,9 +244,9 @@ function ShowShopEmpty(value) {
 <?php
 /* 페이지 트래픽 확인 코드 */
 ?>
-<?php if($sCode!=='06z1' && $sCode !=='06z2'){ ?>
+
 <iframe width="0" height="0" src="http://ad.ad4989.co.kr/cgi-bin/PelicanC.dll?impr?pageid=<?=$sCode?>&out=iframe" allowTransparency = "true" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="no" ></iframe>
-<?php } ?>
+
 <script src="http://ad.ad4989.co.kr/cgi-bin/PelicanC.dll?impr?pageid=06wM&lang=utf-8&out=script"></script>
 
 
