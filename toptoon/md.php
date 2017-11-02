@@ -194,7 +194,6 @@ var MD = "<?=$MD?>";
 /* 페이지 트래픽 확인 코드 */
 ?>
 <iframe width="0" height="0" src="http://ad.ad4989.co.kr/cgi-bin/PelicanC.dll?impr?pageid=<?=$sCode?>&out=iframe" allowTransparency = "true" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="no" ></iframe>
-<script src="http://ad.ad4989.co.kr/cgi-bin/PelicanC.dll?impr?pageid=06wM&lang=utf-8&out=script"></script>
 
 
 
