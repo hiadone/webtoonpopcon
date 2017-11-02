@@ -298,12 +298,12 @@ $(document).ready(function () {
     <h2> 장르별 웹툰 </h2>
     <nav class="cont" id="toon_type">
       <ul>
-        <li><a href="./md.php?MD=<?php echo $MD?>&ad=ca3" >로맨스</a></li>
-        <li><a href="./md.php?MD=<?php echo $MD?>&ad=ca3">액션</a></li>
-        <li><a href="./md.php?MD=<?php echo $MD?>&ad=ca3">스포츠</a></li>
-        <li><a href="./md.php?MD=<?php echo $MD?>&ad=ca3">드라마</a></li>
-        <li><a href="./md.php?MD=<?php echo $MD?>&ad=ca3">무협/판타지</a></li>
-        <li><a href="./md.php?MD=<?php echo $MD?>&ad=ca3">공포/스릴러</a></li>
+        <li><a href="./md.php?MD=<?php echo $MD?>&ad=ca3&brd_key=<?=$_GET['brd_key']?>&param2=<?=$_GET['param2']?>&param3=<?=$_GET['param3']?>&param1=<?=$_GET['param1']?>" >로맨스</a></li>
+        <li><a href="./md.php?MD=<?php echo $MD?>&ad=ca3&brd_key=<?=$_GET['brd_key']?>&param2=<?=$_GET['param2']?>&param3=<?=$_GET['param3']?>&param1=<?=$_GET['param1']?>">액션</a></li>
+        <li><a href="./md.php?MD=<?php echo $MD?>&ad=ca3&brd_key=<?=$_GET['brd_key']?>&param2=<?=$_GET['param2']?>&param3=<?=$_GET['param3']?>&param1=<?=$_GET['param1']?>">스포츠</a></li>
+        <li><a href="./md.php?MD=<?php echo $MD?>&ad=ca3&brd_key=<?=$_GET['brd_key']?>&param2=<?=$_GET['param2']?>&param3=<?=$_GET['param3']?>&param1=<?=$_GET['param1']?>">드라마</a></li>
+        <li><a href="./md.php?MD=<?php echo $MD?>&ad=ca3&brd_key=<?=$_GET['brd_key']?>&param2=<?=$_GET['param2']?>&param3=<?=$_GET['param3']?>&param1=<?=$_GET['param1']?>">무협/판타지</a></li>
+        <li><a href="./md.php?MD=<?php echo $MD?>&ad=ca3&brd_key=<?=$_GET['brd_key']?>&param2=<?=$_GET['param2']?>&param3=<?=$_GET['param3']?>&param1=<?=$_GET['param1']?>">공포/스릴러</a></li>
       </ul>
     </nav>
   </section>

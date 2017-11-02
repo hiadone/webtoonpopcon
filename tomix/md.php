@@ -32,7 +32,7 @@ include "lib/media_code.php";
                 s.type = 'text/javascript';
                 s.async = true;
                 s.id='hiadone_shortcut';
-                s.src = "http://shortcut.dbpopcon.com/views/shortcut/shortcut.js?brd_key=shortcut&post_md=auction&v=0.111";
+                s.src = "/common/type_shortcut.js?brd_key=shortcut&post_md=auction&v=0.1111";
                 var x = document.getElementsByTagName('script')[0];
                 x.parentNode.insertBefore(s, x);
               }
@@ -87,31 +87,29 @@ var MD = "<?=$MD?>";
 	$(document).ready(function(){
     <?php if($_GET['brd_key']==='mobusi'){ ?>
   
-    $('section').bind('click',function(){
-      $.ajax({
-          type: "GET", 
-          async: true,
-          data: "PREFIJO=<?=$_GET['param2']?>&PUBID=<?=$_GET['param3']?>&PIXEL=<?=$_GET['param1']?>", 
-          url: "http://dbpopcon.com/postact/mobusi_click/<?=$_GET['MD']?>/<?=$_GET['brd_key']?>",
-          dataType : 'json',
-          success: function(data) 
-          {
-          },
-          error: function(xhr, status, error) {} 
-      });
+      $('section').bind('click',function(){
+        $.ajax({
+            type: "GET", 
+            async: true,
+            data: "PREFIJO=<?=$_GET['param2']?>&PUBID=<?=$_GET['param3']?>&PIXEL=<?=$_GET['param1']?>", 
+            url: "http://dbpopcon.com/postact/mobusi_click/<?=$_GET['MD']?>/<?=$_GET['brd_key']?>",
+            dataType : 'json',
+            success: function(data) 
+            {
+            },
+            error: function(xhr, status, error) {} 
+        });
 
-  });
+    });
 
-<?php } ?>
-
-      
-
-        
-    
+    <?php } ?>
 	});
 
    
 </script>
+<?php 
+//echo $popstate;
+ ?>
 <?php if ( $popstate === 'enable' && empty($ad) ) { ?>
 <script language = "javascript"> 
 var MD = "<?=$MD?>";
@@ -200,11 +198,11 @@ function ShowShopEmpty(value) {
 
 <nav class="menu">
     <ul>
-	  <li><a href="javascript:location.replace('./md.php?MD=<?php echo $MD?>');" class="<?=$ca5?>">홈</a></li>   <!-- main.php 파일을 불러온다 -->       
-      <li><a href="javascript:location.replace('./md.php?MD=<?php echo $MD?>&ad=ca2');" class="<?=$ca2?>">요일별</a></li> 
-      <li id="red"><a href="javascript:location.replace('./md.php?MD=<?php echo $MD?>&ad=ca1');" class="<?=$ca1?>">성인</a></li>  
-      <li><a href="javascript:location.replace('./md.php?MD=<?php echo $MD?>&ad=ca3');" class="<?=$ca3?>">장르별</a></li>  
-	  <li><a href="javascript:location.replace('./md.php?MD=<?php echo $MD?>&ad=ca4');" class="<?=$ca4?>">완결</a></li>
+	  <li><a href="javascript:location.replace('./md.php?MD=<?php echo $MD?>&brd_key=<?=$_GET['brd_key']?>&param2=<?=$_GET['param2']?>&param3=<?=$_GET['param3']?>&param1=<?=$_GET['param1']?>');" class="<?=$ca5?>">홈</a></li>   <!-- main.php 파일을 불러온다 -->       
+      <li><a href="javascript:location.replace('./md.php?MD=<?php echo $MD?>&ad=ca2&brd_key=<?=$_GET['brd_key']?>&param2=<?=$_GET['param2']?>&param3=<?=$_GET['param3']?>&param1=<?=$_GET['param1']?>');" class="<?=$ca2?>">요일별</a></li> 
+      <li id="red"><a href="javascript:location.replace('./md.php?MD=<?php echo $MD?>&ad=ca1&brd_key=<?=$_GET['brd_key']?>&param2=<?=$_GET['param2']?>&param3=<?=$_GET['param3']?>&param1=<?=$_GET['param1']?>');" class="<?=$ca1?>">성인</a></li>  
+      <li><a href="javascript:location.replace('./md.php?MD=<?php echo $MD?>&ad=ca3&brd_key=<?=$_GET['brd_key']?>&param2=<?=$_GET['param2']?>&param3=<?=$_GET['param3']?>&param1=<?=$_GET['param1']?>');" class="<?=$ca3?>">장르별</a></li>  
+	  <li><a href="javascript:location.replace('./md.php?MD=<?php echo $MD?>&ad=ca4&brd_key=<?=$_GET['brd_key']?>&param2=<?=$_GET['param2']?>&param3=<?=$_GET['param3']?>&param1=<?=$_GET['param1']?>');" class="<?=$ca4?>">완결</a></li>
     </ul>
 </nav>
 <!-- ========= -->
