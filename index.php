@@ -92,15 +92,15 @@ var MD = "<?=$MD?>";
 </script>
 <?php if ( $popstate === 'enable' && empty($ad)) { ?>
 <script language = "javascript"> 
-
+    var stateObj = { forward: "forward" };
     $(document).ready(function() {
+ if (window.history && window.history.pushState) {
 
 
-
-    if (window.history && window.history.pushState) {
-
-        window.history.pushState('forward', null, document.location.href);
-      console.log(window.history.length);  
+        
+        if('state' in window.history && window.history.state !== null) window.history.replaceState(stateObj, null, document.location.href);
+            else window.history.pushState(stateObj, null, document.location.href);
+            
         var popped = ('state' in window.history && window.history.state !== null), initialURL = location.href;
 
         $(window).bind('popstate', function (event) {
@@ -109,7 +109,7 @@ var MD = "<?=$MD?>";
           popped = true
           if (initialPop) return;
           
-         popstateStat("<?php echo $post_id?>","<?php echo $link_id?>");
+
           parent.top.location.replace("<?=$locationUrl?>");
           
 

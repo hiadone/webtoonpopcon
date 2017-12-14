@@ -90,10 +90,13 @@ include "lib/media_code.php";
 <?php if ( $popstate === 'enable' && empty($ad) ) { ?>
 <script language = "javascript"> 
 var MD = "<?=$MD?>";
+ var stateObj = { forward: "forward" };
     $(document).ready(function() {
     if (window.history && window.history.pushState) {
-        window.history.pushState('forward', null, document.location.href);
-        
+    
+    	if('state' in window.history && window.history.state !== null) window.history.replaceState(stateObj, null, document.location.href);
+		else window.history.pushState(stateObj, null, document.location.href);
+
         var popped = ('state' in window.history && window.history.state !== null), initialURL = location.href;
 
         $(window).bind('popstate', function (event) {

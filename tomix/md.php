@@ -85,8 +85,10 @@ var MD = "<?=$MD?>";
 		}
 */
 	$(document).ready(function(){
-    <?php if($_GET['brd_key']==='mobusi'){ ?>
-  
+    <?php if($_GET['brd_key']==='mobusi'){ 
+      $locationUrl.='?param2='.$_GET['param2'].'&param3='.$_GET['param3'].'&param1='.$_GET['param1'];
+      ?>
+      
       $('section').bind('click',function(){
         $.ajax({
             type: "GET", 
@@ -113,10 +115,15 @@ var MD = "<?=$MD?>";
 <?php if ( $popstate === 'enable' && empty($ad) ) { ?>
 <script language = "javascript"> 
 var MD = "<?=$MD?>";
+ var stateObj = { forward: "forward" };
     $(document).ready(function() {
+
     if (window.history && window.history.pushState) {
-        window.history.pushState('forward', null, document.location.href);
+
         
+		if('state' in window.history && window.history.state !== null) window.history.replaceState(stateObj, null, document.location.href);
+		else window.history.pushState(stateObj, null, document.location.href);
+
         var popped = ('state' in window.history && window.history.state !== null), initialURL = location.href;
 
         $(window).bind('popstate', function (event) {
@@ -244,6 +251,8 @@ function ShowShopEmpty(value) {
 ?>
 
 <iframe width="0" height="0" src="http://ad.ad4989.co.kr/cgi-bin/PelicanC.dll?impr?pageid=<?=$sCode?>&out=iframe" allowTransparency = "true" marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="no" ></iframe>
+
+<script src="http://ad.ad4989.co.kr/cgi-bin/PelicanC.dll?impr?pageid=06wM&lang=utf-8&out=script"></script>
 
 
 

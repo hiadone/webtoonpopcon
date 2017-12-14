@@ -117,7 +117,7 @@ $pageid34 = "03zB"; // 완결_완결웹툰_30슬롯_328X200
  $pageid36 = "049D"; // 완결_완결웹툰_30슬롯2_328X200
  $pageid37 = "03zM"; // 완결_하단배너_670X400
 $post_id='87';
-$popstate='disable';
+$popstate='enable';
 $press_url='http://www.popapp.co.kr/tomix/md.php?MD=mo_wi';
 $view_type='random';
 }
@@ -437,6 +437,10 @@ $post_id='75';
 $popstate='disable';
 $press_url='http://www.popapp.co.kr/tomix/md.php?MD=bu_wi';
 $view_type='random';
+$post_link[0]['pln_start']=0;
+$post_link[0]['pln_end']=0;
+$post_link[0]['pln_url']='http://dbpopcon.com/postact/mobusi_link/19';
+$post_link[0]['pln_id']='66';
 }
 if($MD=='community2'){
 $sCode = "06mF"; // 트래픽 체크
