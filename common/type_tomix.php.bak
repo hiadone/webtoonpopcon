@@ -1,65 +1,4 @@
 <?php
-if($MD=='mo_wi'){
-$sCode = "073b"; // 트래픽 체크
-$pageid1 = "03wC"; // 홈_상단_배너1_5슬롯_670X312
- $pageid2 = "03wO"; // 홈_상단 배너2_5슬롯_302X200
- $pageid3 = "03xh"; // 요일별_월요일_웹툰_9슬롯_214X200
- $pageid4 = "03xE"; // 홈_배너_1_360X150
- $pageid5 = "03wZ"; // 홈_완결웹툰_6슬롯_328X200
- $pageid6 = "03xP"; // 홈_배너_2_360X150
- $pageid7 = "03wk"; // 홈_성인웹툰_6슬롯_328X200
- $pageid8 = "03wv"; // 홈_주간 베스트_4슬롯_302X200
- $pageid9 = "03xS"; // 홈_하단배너_3_670X400
-
- // 요일별
-$pageid10 = "03xh"; // 요일별_월요일_웹툰_9슬롯_214X200
- $pageid11 = "03xs"; // 요일별_화요일_웹툰_9슬롯_214X200
- $pageid12 = "03y3"; // 요일별_수요일_웹툰_9슬롯_214X200
- $pageid13 = "03yE"; // 요일별_목요일_웹툰_9슬롯_214X200
- $pageid14 = "03yP"; // 요일별_금요일_웹툰_9슬롯_214X200
- $pageid15 = "03yb"; // 요일별_토요일_웹툰_9슬롯_214X200
- $pageid16 = "03ym"; // 요일별_일요일_웹툰_9슬롯_214X200
- $pageid17 = "03yy"; // 요일별_하단배너_670X400
-
- //해당 요일에 대한 키값을 배열 변수에 저장
-$weekPageId[1] = "03xh"; // 요일별_월요일_웹툰_9슬롯_214X200
- $weekPageId[2] = "03xs"; // 요일별_화요일_웹툰_9슬롯_214X200
- $weekPageId[3] = "03y3"; // 요일별_수요일_웹툰_9슬롯_214X200
- $weekPageId[4] = "03yE"; // 요일별_목요일_웹툰_9슬롯_214X200
- $weekPageId[5] = "03yP"; // 요일별_금요일_웹툰_9슬롯_214X200
- $weekPageId[6] = "03yb"; // 요일별_토요일_웹툰_9슬롯_214X200
- $weekPageId[0] = "03ym"; // 요일별_일요일_웹툰_9슬롯_214X200
-
- // 성인
-$pageid18 = "042b"; // 성인_투믹스 독점작_6슬롯_328X200
- $pageid19 = "042m"; // PD 강력추천작_302X200
- $pageid20 = "048Z"; // 성인_배너_1_360X15
- $pageid21 = "042x"; // 정주행 추천작_9슬롯_214X200
- $pageid22 = "048l"; // 성인_배너_2_360X150
- $pageid23 = "0438"; // 성인_당신의 판타지를 이뤄줄 그녀들_214X200
- $pageid24 = "043J"; // 성인_하단배너_670X400
-
- // 장르별
-$pageid25 = "040g"; // 장르별_로맨스_웹툰_9슬롯_214X200
- $pageid26 = "040r"; // 장르별_액션_웹툰_9슬롯_214X200
- $pageid27 = "048B"; // 장르별_배너_1_360X150
- $pageid28 = "0412"; // 장르별_스포츠_웹툰_9슬롯_214X200
- $pageid29 = "041D"; // 장르별_드라마_웹툰_9슬롯_214X200
- $pageid30 = "048N"; // 장르별_배너_2_360X150
- $pageid31 = "041O"; // 장르별_무협/판타지_웹툰_9슬롯_214X200
- $pageid32 = "041Z"; // 장르별_코믹_웹툰_9슬롯_214X200
- $pageid33 = "041k"; // 장르별_하단배너_670X400
-
- // 주간 베스트
-$pageid34 = "03zB"; // 완결_완결웹툰_30슬롯_328X200
- $pageid35 = "047q"; // 완결_배너_360X150
- $pageid36 = "049D"; // 완결_완결웹툰_30슬롯2_328X200
- $pageid37 = "03zM"; // 완결_하단배너_670X400
-$post_id='68';
-$popstate='disable';
-$press_url='http://www.popapp.co.kr/tomix/md.php?MD=mo_wi';
-$view_type='random';
-}
 if($MD=='mo_ca'){
 $sCode = "073c"; // 트래픽 체크
 $pageid1 = "03wE"; // 홈_상단_배너1_5슬롯_670X312
@@ -116,10 +55,640 @@ $pageid34 = "03zD"; // 완결_완결웹툰_30슬롯_328X200
  $pageid35 = "047q"; // 완결_배너_360X150
  $pageid36 = "049F"; // 완결_완결웹툰_30슬롯2_328X200
  $pageid37 = "03zO"; // 완결_하단배너_670X400
-$post_id='67';
+$post_id='88';
 $popstate='disable';
 $press_url='http://www.popapp.co.kr/tomix/md.php?MD=mo_ca';
 $view_type='random';
+}
+if($MD=='mo_wi'){
+$sCode = "073b"; // 트래픽 체크
+$pageid1 = "03wC"; // 홈_상단_배너1_5슬롯_670X312
+ $pageid2 = "03wO"; // 홈_상단 배너2_5슬롯_302X200
+ $pageid3 = "03xh"; // 요일별_월요일_웹툰_9슬롯_214X200
+ $pageid4 = "03xE"; // 홈_배너_1_360X150
+ $pageid5 = "03wZ"; // 홈_완결웹툰_6슬롯_328X200
+ $pageid6 = "03xP"; // 홈_배너_2_360X150
+ $pageid7 = "03wk"; // 홈_성인웹툰_6슬롯_328X200
+ $pageid8 = "03wv"; // 홈_주간 베스트_4슬롯_302X200
+ $pageid9 = "03xS"; // 홈_하단배너_3_670X400
+
+ // 요일별
+$pageid10 = "03xh"; // 요일별_월요일_웹툰_9슬롯_214X200
+ $pageid11 = "03xs"; // 요일별_화요일_웹툰_9슬롯_214X200
+ $pageid12 = "03y3"; // 요일별_수요일_웹툰_9슬롯_214X200
+ $pageid13 = "03yE"; // 요일별_목요일_웹툰_9슬롯_214X200
+ $pageid14 = "03yP"; // 요일별_금요일_웹툰_9슬롯_214X200
+ $pageid15 = "03yb"; // 요일별_토요일_웹툰_9슬롯_214X200
+ $pageid16 = "03ym"; // 요일별_일요일_웹툰_9슬롯_214X200
+ $pageid17 = "03yy"; // 요일별_하단배너_670X400
+
+ //해당 요일에 대한 키값을 배열 변수에 저장
+$weekPageId[1] = "03xh"; // 요일별_월요일_웹툰_9슬롯_214X200
+ $weekPageId[2] = "03xs"; // 요일별_화요일_웹툰_9슬롯_214X200
+ $weekPageId[3] = "03y3"; // 요일별_수요일_웹툰_9슬롯_214X200
+ $weekPageId[4] = "03yE"; // 요일별_목요일_웹툰_9슬롯_214X200
+ $weekPageId[5] = "03yP"; // 요일별_금요일_웹툰_9슬롯_214X200
+ $weekPageId[6] = "03yb"; // 요일별_토요일_웹툰_9슬롯_214X200
+ $weekPageId[0] = "03ym"; // 요일별_일요일_웹툰_9슬롯_214X200
+
+ // 성인
+$pageid18 = "042b"; // 성인_투믹스 독점작_6슬롯_328X200
+ $pageid19 = "042m"; // PD 강력추천작_302X200
+ $pageid20 = "048Z"; // 성인_배너_1_360X15
+ $pageid21 = "042x"; // 정주행 추천작_9슬롯_214X200
+ $pageid22 = "048l"; // 성인_배너_2_360X150
+ $pageid23 = "0438"; // 성인_당신의 판타지를 이뤄줄 그녀들_214X200
+ $pageid24 = "043J"; // 성인_하단배너_670X400
+
+ // 장르별
+$pageid25 = "040g"; // 장르별_로맨스_웹툰_9슬롯_214X200
+ $pageid26 = "040r"; // 장르별_액션_웹툰_9슬롯_214X200
+ $pageid27 = "048B"; // 장르별_배너_1_360X150
+ $pageid28 = "0412"; // 장르별_스포츠_웹툰_9슬롯_214X200
+ $pageid29 = "041D"; // 장르별_드라마_웹툰_9슬롯_214X200
+ $pageid30 = "048N"; // 장르별_배너_2_360X150
+ $pageid31 = "041O"; // 장르별_무협/판타지_웹툰_9슬롯_214X200
+ $pageid32 = "041Z"; // 장르별_코믹_웹툰_9슬롯_214X200
+ $pageid33 = "041k"; // 장르별_하단배너_670X400
+
+ // 주간 베스트
+$pageid34 = "03zB"; // 완결_완결웹툰_30슬롯_328X200
+ $pageid35 = "047q"; // 완결_배너_360X150
+ $pageid36 = "049D"; // 완결_완결웹툰_30슬롯2_328X200
+ $pageid37 = "03zM"; // 완결_하단배너_670X400
+$post_id='87';
+$popstate='enable';
+$press_url='http://www.popapp.co.kr/tomix/md.php?MD=mo_wi';
+$view_type='random';
+}
+if($MD=='moodeung'){
+$sCode = "05ev"; // 트래픽 체크
+$pageid1 = "03wD"; // 홈_상단_배너1_5슬롯_670X312
+ $pageid2 = "03wP"; // 홈_상단 배너2_5슬롯_302X200
+ $pageid3 = "04ig"; // 요일별_월요일_웹툰_9슬롯_214X200
+ $pageid4 = "03xE"; // 홈_배너_1_360X150
+ $pageid5 = "03wa"; // 홈_완결웹툰_6슬롯_328X200
+ $pageid6 = "03xP"; // 홈_배너_2_360X150
+ $pageid7 = "03wl"; // 홈_성인웹툰_6슬롯_328X200
+ $pageid8 = "03ww"; // 홈_주간 베스트_4슬롯_302X200
+ $pageid9 = "03xT"; // 홈_하단배너_3_670X400
+
+ // 요일별
+$pageid10 = "03xi"; // 요일별_월요일_웹툰_9슬롯_214X200
+ $pageid11 = "03xt"; // 요일별_화요일_웹툰_9슬롯_214X200
+ $pageid12 = "03y4"; // 요일별_수요일_웹툰_9슬롯_214X200
+ $pageid13 = "03yF"; // 요일별_목요일_웹툰_9슬롯_214X200
+ $pageid14 = "03yQ"; // 요일별_금요일_웹툰_9슬롯_214X200
+ $pageid15 = "03yc"; // 요일별_토요일_웹툰_9슬롯_214X200
+ $pageid16 = "03yn"; // 요일별_일요일_웹툰_9슬롯_214X200
+ $pageid17 = "03yz"; // 요일별_하단배너_670X400
+
+ //해당 요일에 대한 키값을 배열 변수에 저장
+$weekPageId[1] = "03xi"; // 요일별_월요일_웹툰_9슬롯_214X200
+ $weekPageId[2] = "03xt"; // 요일별_화요일_웹툰_9슬롯_214X200
+ $weekPageId[3] = "03y4"; // 요일별_수요일_웹툰_9슬롯_214X200
+ $weekPageId[4] = "03yF"; // 요일별_목요일_웹툰_9슬롯_214X200
+ $weekPageId[5] = "03yQ"; // 요일별_금요일_웹툰_9슬롯_214X200
+ $weekPageId[6] = "03yc"; // 요일별_토요일_웹툰_9슬롯_214X200
+ $weekPageId[0] = "03yn"; // 요일별_일요일_웹툰_9슬롯_214X200
+
+ // 성인
+$pageid18 = "042c"; // 성인_투믹스 독점작_6슬롯_328X200
+ $pageid19 = "042n"; // PD 강력추천작_302X200
+ $pageid20 = "048Z"; // 성인_배너_1_360X15
+ $pageid21 = "042y"; // 정주행 추천작_9슬롯_214X200
+ $pageid22 = "048l"; // 성인_배너_2_360X150
+ $pageid23 = "0439"; // 성인_당신의 판타지를 이뤄줄 그녀들_214X200
+ $pageid24 = "043K"; // 성인_하단배너_670X400
+
+ // 장르별
+$pageid25 = "040h"; // 장르별_로맨스_웹툰_9슬롯_214X200
+ $pageid26 = "040s"; // 장르별_액션_웹툰_9슬롯_214X200
+ $pageid27 = "048B"; // 장르별_배너_1_360X150
+ $pageid28 = "0413"; // 장르별_스포츠_웹툰_9슬롯_214X200
+ $pageid29 = "041E"; // 장르별_드라마_웹툰_9슬롯_214X200
+ $pageid30 = "048N"; // 장르별_배너_2_360X150
+ $pageid31 = "041P"; // 장르별_무협/판타지_웹툰_9슬롯_214X200
+ $pageid32 = "041a"; // 장르별_코믹_웹툰_9슬롯_214X200
+ $pageid33 = "041l"; // 장르별_하단배너_670X400
+
+ // 주간 베스트
+$pageid34 = "03zC"; // 완결_완결웹툰_30슬롯_328X200
+ $pageid35 = "047q"; // 완결_배너_360X150
+ $pageid36 = "049E"; // 완결_완결웹툰_30슬롯2_328X200
+ $pageid37 = "03zN"; // 완결_하단배너_670X400
+$post_id='80';
+$popstate='disable';
+$press_url='http://www.popapp.co.kr/tomix/md.php?MD=moodeung';
+$view_type='random';
+$post_link[0]['pln_start']=0;
+$post_link[0]['pln_end']=0;
+$post_link[0]['pln_url']='http://newspopcon.com/pop.asp?type=moodeung';
+$post_link[0]['pln_id']='57';
+}
+if($MD=='jemin'){
+$sCode = "05ex"; // 트래픽 체크
+$pageid1 = "04cT"; // 홈_상단_배너1_5슬롯_670X312
+ $pageid2 = "04cX"; // 홈_상단 배너2_5슬롯_302X200
+ $pageid3 = "04ig"; // 요일별_월요일_웹툰_9슬롯_214X200
+ $pageid4 = "03xE"; // 홈_배너_1_360X150
+ $pageid5 = "04cf"; // 홈_완결웹툰_6슬롯_328X200
+ $pageid6 = "03xP"; // 홈_배너_2_360X150
+ $pageid7 = "04cb"; // 홈_성인웹툰_6슬롯_328X200
+ $pageid8 = "04cj"; // 홈_주간 베스트_4슬롯_302X200
+ $pageid9 = "04cn"; // 홈_하단배너_3_670X400
+
+ // 요일별
+$pageid10 = "04wU"; // 요일별_월요일_웹툰_9슬롯_214X200
+ $pageid11 = "04wV"; // 요일별_화요일_웹툰_9슬롯_214X200
+ $pageid12 = "04wY"; // 요일별_수요일_웹툰_9슬롯_214X200
+ $pageid13 = "04wZ"; // 요일별_목요일_웹툰_9슬롯_214X200
+ $pageid14 = "04wc"; // 요일별_금요일_웹툰_9슬롯_214X200
+ $pageid15 = "04wd"; // 요일별_토요일_웹툰_9슬롯_214X200
+ $pageid16 = "04wg"; // 요일별_일요일_웹툰_9슬롯_214X200
+ $pageid17 = "04wB"; // 요일별_하단배너_670X400
+
+ //해당 요일에 대한 키값을 배열 변수에 저장
+$weekPageId[1] = "04wU"; // 요일별_월요일_웹툰_9슬롯_214X200
+ $weekPageId[2] = "04wV"; // 요일별_화요일_웹툰_9슬롯_214X200
+ $weekPageId[3] = "04wY"; // 요일별_수요일_웹툰_9슬롯_214X200
+ $weekPageId[4] = "04wZ"; // 요일별_목요일_웹툰_9슬롯_214X200
+ $weekPageId[5] = "04wc"; // 요일별_금요일_웹툰_9슬롯_214X200
+ $weekPageId[6] = "04wd"; // 요일별_토요일_웹툰_9슬롯_214X200
+ $weekPageId[0] = "04wg"; // 요일별_일요일_웹툰_9슬롯_214X200
+
+ // 성인
+$pageid18 = "04vy"; // 성인_투믹스 독점작_6슬롯_328X200
+ $pageid19 = "04vv"; // PD 강력추천작_302X200
+ $pageid20 = "048Z"; // 성인_배너_1_360X15
+ $pageid21 = "04w6"; // 정주행 추천작_9슬롯_214X200
+ $pageid22 = "048l"; // 성인_배너_2_360X150
+ $pageid23 = "04vz"; // 성인_당신의 판타지를 이뤄줄 그녀들_214X200
+ $pageid24 = "04wE"; // 성인_하단배너_670X400
+
+ // 장르별
+$pageid25 = "04wh"; // 장르별_로맨스_웹툰_9슬롯_214X200
+ $pageid26 = "04wi"; // 장르별_액션_웹툰_9슬롯_214X200
+ $pageid27 = "048B"; // 장르별_배너_1_360X150
+ $pageid28 = "04wj"; // 장르별_스포츠_웹툰_9슬롯_214X200
+ $pageid29 = "04wk"; // 장르별_드라마_웹툰_9슬롯_214X200
+ $pageid30 = "048N"; // 장르별_배너_2_360X150
+ $pageid31 = "04wl"; // 장르별_무협/판타지_웹툰_9슬롯_214X200
+ $pageid32 = "04wm"; // 장르별_코믹_웹툰_9슬롯_214X200
+ $pageid33 = "04wD"; // 장르별_하단배너_670X400
+
+ // 주간 베스트
+$pageid34 = "04wQ"; // 완결_완결웹툰_30슬롯_328X200
+ $pageid35 = "047q"; // 완결_배너_360X150
+ $pageid36 = "04wS"; // 완결_완결웹툰_30슬롯2_328X200
+ $pageid37 = "04wC"; // 완결_하단배너_670X400
+$post_id='79';
+$popstate='enable';
+$press_url='http://www.popapp.co.kr/tomix/md.php?MD=jemin';
+$view_type='random';
+$post_link[0]['pln_start']=0;
+$post_link[0]['pln_end']=0;
+$post_link[0]['pln_url']='http://newspopcon.com/pop.asp?type=jemin';
+$post_link[0]['pln_id']='56';
+}
+if($MD=='newstown'){
+$sCode = "05ew"; // 트래픽 체크
+$pageid1 = "04cR"; // 홈_상단_배너1_5슬롯_670X312
+ $pageid2 = "04cV"; // 홈_상단 배너2_5슬롯_302X200
+ $pageid3 = "04ig"; // 요일별_월요일_웹툰_9슬롯_214X200
+ $pageid4 = "03xE"; // 홈_배너_1_360X150
+ $pageid5 = "04cd"; // 홈_완결웹툰_6슬롯_328X200
+ $pageid6 = "03xP"; // 홈_배너_2_360X150
+ $pageid7 = "04cZ"; // 홈_성인웹툰_6슬롯_328X200
+ $pageid8 = "04ch"; // 홈_주간 베스트_4슬롯_302X200
+ $pageid9 = "04cl"; // 홈_하단배너_3_670X400
+
+ // 요일별
+$pageid10 = "04wT"; // 요일별_월요일_웹툰_9슬롯_214X200
+ $pageid11 = "04wW"; // 요일별_화요일_웹툰_9슬롯_214X200
+ $pageid12 = "04wX"; // 요일별_수요일_웹툰_9슬롯_214X200
+ $pageid13 = "04wa"; // 요일별_목요일_웹툰_9슬롯_214X200
+ $pageid14 = "04wb"; // 요일별_금요일_웹툰_9슬롯_214X200
+ $pageid15 = "04we"; // 요일별_토요일_웹툰_9슬롯_214X200
+ $pageid16 = "04wf"; // 요일별_일요일_웹툰_9슬롯_214X200
+ $pageid17 = "04w8"; // 요일별_하단배너_670X400
+
+ //해당 요일에 대한 키값을 배열 변수에 저장
+$weekPageId[1] = "04wT"; // 요일별_월요일_웹툰_9슬롯_214X200
+ $weekPageId[2] = "04wW"; // 요일별_화요일_웹툰_9슬롯_214X200
+ $weekPageId[3] = "04wX"; // 요일별_수요일_웹툰_9슬롯_214X200
+ $weekPageId[4] = "04wa"; // 요일별_목요일_웹툰_9슬롯_214X200
+ $weekPageId[5] = "04wb"; // 요일별_금요일_웹툰_9슬롯_214X200
+ $weekPageId[6] = "04we"; // 요일별_토요일_웹툰_9슬롯_214X200
+ $weekPageId[0] = "04wf"; // 요일별_일요일_웹툰_9슬롯_214X200
+
+ // 성인
+$pageid18 = "04vx"; // 성인_투믹스 독점작_6슬롯_328X200
+ $pageid19 = "04vu"; // PD 강력추천작_302X200
+ $pageid20 = "048Z"; // 성인_배너_1_360X15
+ $pageid21 = "04w5"; // 정주행 추천작_9슬롯_214X200
+ $pageid22 = "048l"; // 성인_배너_2_360X150
+ $pageid23 = "04w0"; // 성인_당신의 판타지를 이뤄줄 그녀들_214X200
+ $pageid24 = "04w7"; // 성인_하단배너_670X400
+
+ // 장르별
+$pageid25 = "04wo"; // 장르별_로맨스_웹툰_9슬롯_214X200
+ $pageid26 = "04wp"; // 장르별_액션_웹툰_9슬롯_214X200
+ $pageid27 = "048B"; // 장르별_배너_1_360X150
+ $pageid28 = "04wq"; // 장르별_스포츠_웹툰_9슬롯_214X200
+ $pageid29 = "04wr"; // 장르별_드라마_웹툰_9슬롯_214X200
+ $pageid30 = "048N"; // 장르별_배너_2_360X150
+ $pageid31 = "04ws"; // 장르별_무협/판타지_웹툰_9슬롯_214X200
+ $pageid32 = "04wn"; // 장르별_코믹_웹툰_9슬롯_214X200
+ $pageid33 = "04wA"; // 장르별_하단배너_670X400
+
+ // 주간 베스트
+$pageid34 = "04wP"; // 완결_완결웹툰_30슬롯_328X200
+ $pageid35 = "047q"; // 완결_배너_360X150
+ $pageid36 = "04wR"; // 완결_완결웹툰_30슬롯2_328X200
+ $pageid37 = "04w9"; // 완결_하단배너_670X400
+$post_id='78';
+$popstate='disable';
+$press_url='http://www.popapp.co.kr/tomix/md.php?MD=newstown';
+$view_type='random';
+$post_link[0]['pln_start']=0;
+$post_link[0]['pln_end']=0;
+$post_link[0]['pln_url']='http://newspopcon.com/pop.asp?type=newstown';
+$post_link[0]['pln_id']='55';
+}
+if($MD=='bu_ca'){
+$sCode = "06z2"; // 트래픽 체크
+$pageid1 = "04hu"; // 홈_상단_배너1_5슬롯_670X312
+ $pageid2 = "04i4"; // 홈_상단 배너2_5슬롯_302X200
+ $pageid3 = "04ig"; // 요일별_월요일_웹툰_9슬롯_214X200
+ $pageid4 = "03xE"; // 홈_배너_1_360X150
+ $pageid5 = "04iE"; // 홈_완결웹툰_6슬롯_328X200
+ $pageid6 = "03xP"; // 홈_배너_2_360X150
+ $pageid7 = "04i7"; // 홈_성인웹툰_6슬롯_328X200
+ $pageid8 = "04iM"; // 홈_주간 베스트_4슬롯_302X200
+ $pageid9 = "04iT"; // 홈_하단배너_3_670X400
+
+ // 요일별
+$pageid10 = "04ig"; // 요일별_월요일_웹툰_9슬롯_214X200
+ $pageid11 = "04ip"; // 요일별_화요일_웹툰_9슬롯_214X200
+ $pageid12 = "04j2"; // 요일별_수요일_웹툰_9슬롯_214X200
+ $pageid13 = "04jF"; // 요일별_목요일_웹툰_9슬롯_214X200
+ $pageid14 = "04jO"; // 요일별_금요일_웹툰_9슬롯_214X200
+ $pageid15 = "04jV"; // 요일별_토요일_웹툰_9슬롯_214X200
+ $pageid16 = "04jc"; // 요일별_일요일_웹툰_9슬롯_214X200
+ $pageid17 = "04ji"; // 요일별_하단배너_670X400
+
+ //해당 요일에 대한 키값을 배열 변수에 저장
+$weekPageId[1] = "04ig"; // 요일별_월요일_웹툰_9슬롯_214X200
+ $weekPageId[2] = "04ip"; // 요일별_화요일_웹툰_9슬롯_214X200
+ $weekPageId[3] = "04j2"; // 요일별_수요일_웹툰_9슬롯_214X200
+ $weekPageId[4] = "04jF"; // 요일별_목요일_웹툰_9슬롯_214X200
+ $weekPageId[5] = "04jO"; // 요일별_금요일_웹툰_9슬롯_214X200
+ $weekPageId[6] = "04jV"; // 요일별_토요일_웹툰_9슬롯_214X200
+ $weekPageId[0] = "04jc"; // 요일별_일요일_웹툰_9슬롯_214X200
+
+ // 성인
+$pageid18 = "04pJ"; // 성인_투믹스 독점작_6슬롯_328X200
+ $pageid19 = "04kb"; // PD 강력추천작_302X200
+ $pageid20 = "048Z"; // 성인_배너_1_360X15
+ $pageid21 = "04pg"; // 정주행 추천작_9슬롯_214X200
+ $pageid22 = "048l"; // 성인_배너_2_360X150
+ $pageid23 = "04pu"; // 성인_당신의 판타지를 이뤄줄 그녀들_214X200
+ $pageid24 = "04q8"; // 성인_하단배너_670X400
+
+ // 장르별
+$pageid25 = "04ku"; // 장르별_로맨스_웹툰_9슬롯_214X200
+ $pageid26 = "04l5"; // 장르별_액션_웹툰_9슬롯_214X200
+ $pageid27 = "048B"; // 장르별_배너_1_360X150
+ $pageid28 = "04lM"; // 장르별_스포츠_웹툰_9슬롯_214X200
+ $pageid29 = "04ld"; // 장르별_드라마_웹툰_9슬롯_214X200
+ $pageid30 = "048N"; // 장르별_배너_2_360X150
+ $pageid31 = "04mF"; // 장르별_무협/판타지_웹툰_9슬롯_214X200
+ $pageid32 = "04og"; // 장르별_코믹_웹툰_9슬롯_214X200
+ $pageid33 = "04ox"; // 장르별_하단배너_670X400
+
+ // 주간 베스트
+$pageid34 = "04ju"; // 완결_완결웹툰_30슬롯_328X200
+ $pageid35 = "047q"; // 완결_배너_360X150
+ $pageid36 = "04kE"; // 완결_완결웹툰_30슬롯2_328X200
+ $pageid37 = "04kL"; // 완결_하단배너_670X400
+$post_id='76';
+$popstate='disable';
+$press_url='http://www.popapp.co.kr/tomix/md.php?MD=bu_ca';
+$view_type='random';
+}
+if($MD=='bu_wi'){
+$sCode = "06z1"; // 트래픽 체크
+$pageid1 = "04uv"; // 홈_상단_배너1_5슬롯_670X312
+ $pageid2 = "04uz"; // 홈_상단 배너2_5슬롯_302X200
+ $pageid3 = "04u9"; // 요일별_월요일_웹툰_9슬롯_214X200
+ $pageid4 = "03xE"; // 홈_배너_1_360X150
+ $pageid5 = "04v7"; // 홈_완결웹툰_6슬롯_328X200
+ $pageid6 = "03xP"; // 홈_배너_2_360X150
+ $pageid7 = "04v3"; // 홈_성인웹툰_6슬롯_328X200
+ $pageid8 = "04vB"; // 홈_주간 베스트_4슬롯_302X200
+ $pageid9 = "04vG"; // 홈_하단배너_3_670X400
+
+ // 요일별
+$pageid10 = "04u9"; // 요일별_월요일_웹툰_9슬롯_214X200
+ $pageid11 = "04uI"; // 요일별_화요일_웹툰_9슬롯_214X200
+ $pageid12 = "04uL"; // 요일별_수요일_웹툰_9슬롯_214X200
+ $pageid13 = "04uR"; // 요일별_목요일_웹툰_9슬롯_214X200
+ $pageid14 = "04ua"; // 요일별_금요일_웹툰_9슬롯_214X200
+ $pageid15 = "04ud"; // 요일별_토요일_웹툰_9슬롯_214X200
+ $pageid16 = "04uj"; // 요일별_일요일_웹툰_9슬롯_214X200
+ $pageid17 = "04up"; // 요일별_하단배너_670X400
+
+ //해당 요일에 대한 키값을 배열 변수에 저장
+$weekPageId[1] = "04u9"; // 요일별_월요일_웹툰_9슬롯_214X200
+ $weekPageId[2] = "04uI"; // 요일별_화요일_웹툰_9슬롯_214X200
+ $weekPageId[3] = "04uL"; // 요일별_수요일_웹툰_9슬롯_214X200
+ $weekPageId[4] = "04uR"; // 요일별_목요일_웹툰_9슬롯_214X200
+ $weekPageId[5] = "04ua"; // 요일별_금요일_웹툰_9슬롯_214X200
+ $weekPageId[6] = "04ud"; // 요일별_토요일_웹툰_9슬롯_214X200
+ $weekPageId[0] = "04uj"; // 요일별_일요일_웹툰_9슬롯_214X200
+
+ // 성인
+$pageid18 = "04rh"; // 성인_투믹스 독점작_6슬롯_328X200
+ $pageid19 = "04rU"; // PD 강력추천작_302X200
+ $pageid20 = "048Z"; // 성인_배너_1_360X15
+ $pageid21 = "04ru"; // 정주행 추천작_9슬롯_214X200
+ $pageid22 = "048l"; // 성인_배너_2_360X150
+ $pageid23 = "04rq"; // 성인_당신의 판타지를 이뤄줄 그녀들_214X200
+ $pageid24 = "04sD"; // 성인_하단배너_670X400
+
+ // 장르별
+$pageid25 = "04sh"; // 장르별_로맨스_웹툰_9슬롯_214X200
+ $pageid26 = "04sn"; // 장르별_액션_웹툰_9슬롯_214X200
+ $pageid27 = "048B"; // 장르별_배너_1_360X150
+ $pageid28 = "04t1"; // 장르별_스포츠_웹툰_9슬롯_214X200
+ $pageid29 = "04t4"; // 장르별_드라마_웹툰_9슬롯_214X200
+ $pageid30 = "048N"; // 장르별_배너_2_360X150
+ $pageid31 = "04st"; // 장르별_무협/판타지_웹툰_9슬롯_214X200
+ $pageid32 = "04tD"; // 장르별_코믹_웹툰_9슬롯_214X200
+ $pageid33 = "04tR"; // 장르별_하단배너_670X400
+
+ // 주간 베스트
+$pageid34 = "04sO"; // 완결_완결웹툰_30슬롯_328X200
+ $pageid35 = "047q"; // 완결_배너_360X150
+ $pageid36 = "04sX"; // 완결_완결웹툰_30슬롯2_328X200
+ $pageid37 = "04sa"; // 완결_하단배너_670X400
+$post_id='75';
+$popstate='disable';
+$press_url='http://www.popapp.co.kr/tomix/md.php?MD=bu_wi';
+$view_type='random';
+$post_link[0]['pln_start']=0;
+$post_link[0]['pln_end']=0;
+$post_link[0]['pln_url']='http://dbpopcon.com/postact/mobusi_link/19';
+$post_link[0]['pln_id']='66';
+}
+if($MD=='community2'){
+$sCode = "06mF"; // 트래픽 체크
+$pageid1 = "04kR"; // 홈_상단_배너1_5슬롯_670X312
+ $pageid2 = "04k4"; // 홈_상단 배너2_5슬롯_302X200
+ $pageid3 = "04la"; // 요일별_월요일_웹툰_9슬롯_214X200
+ $pageid4 = "03xE"; // 홈_배너_1_360X150
+ $pageid5 = "04kp"; // 홈_완결웹툰_6슬롯_328X200
+ $pageid6 = "03xP"; // 홈_배너_2_360X150
+ $pageid7 = "04kg"; // 홈_성인웹툰_6슬롯_328X200
+ $pageid8 = "04l7"; // 홈_주간 베스트_4슬롯_302X200
+ $pageid9 = "04lL"; // 홈_하단배너_3_670X400
+
+ // 요일별
+$pageid10 = "04la"; // 요일별_월요일_웹툰_9슬롯_214X200
+ $pageid11 = "04lp"; // 요일별_화요일_웹툰_9슬롯_214X200
+ $pageid12 = "04lz"; // 요일별_수요일_웹툰_9슬롯_214X200
+ $pageid13 = "04m7"; // 요일별_목요일_웹툰_9슬롯_214X200
+ $pageid14 = "04mG"; // 요일별_금요일_웹툰_9슬롯_214X200
+ $pageid15 = "04ma"; // 요일별_토요일_웹툰_9슬롯_214X200
+ $pageid16 = "04mb"; // 요일별_일요일_웹툰_9슬롯_214X200
+ $pageid17 = "04mj"; // 요일별_하단배너_670X400
+
+ //해당 요일에 대한 키값을 배열 변수에 저장
+$weekPageId[1] = "04la"; // 요일별_월요일_웹툰_9슬롯_214X200
+ $weekPageId[2] = "04lp"; // 요일별_화요일_웹툰_9슬롯_214X200
+ $weekPageId[3] = "04lz"; // 요일별_수요일_웹툰_9슬롯_214X200
+ $weekPageId[4] = "04m7"; // 요일별_목요일_웹툰_9슬롯_214X200
+ $weekPageId[5] = "04mG"; // 요일별_금요일_웹툰_9슬롯_214X200
+ $weekPageId[6] = "04ma"; // 요일별_토요일_웹툰_9슬롯_214X200
+ $weekPageId[0] = "04mb"; // 요일별_일요일_웹툰_9슬롯_214X200
+
+ // 성인
+$pageid18 = "04o9"; // 성인_투믹스 독점작_6슬롯_328X200
+ $pageid19 = "04oH"; // PD 강력추천작_302X200
+ $pageid20 = "048Z"; // 성인_배너_1_360X15
+ $pageid21 = "04oP"; // 정주행 추천작_9슬롯_214X200
+ $pageid22 = "048l"; // 성인_배너_2_360X150
+ $pageid23 = "04oX"; // 성인_당신의 판타지를 이뤄줄 그녀들_214X200
+ $pageid24 = "04on"; // 성인_하단배너_670X400
+
+ // 장르별
+$pageid25 = "04nF"; // 장르별_로맨스_웹툰_9슬롯_214X200
+ $pageid26 = "04nN"; // 장르별_액션_웹툰_9슬롯_214X200
+ $pageid27 = "048B"; // 장르별_배너_1_360X150
+ $pageid28 = "04nV"; // 장르별_스포츠_웹툰_9슬롯_214X200
+ $pageid29 = "04nd"; // 장르별_드라마_웹툰_9슬롯_214X200
+ $pageid30 = "048N"; // 장르별_배너_2_360X150
+ $pageid31 = "04nl"; // 장르별_무협/판타지_웹툰_9슬롯_214X200
+ $pageid32 = "04nt"; // 장르별_코믹_웹툰_9슬롯_214X200
+ $pageid33 = "04o1"; // 장르별_하단배너_670X400
+
+ // 주간 베스트
+$pageid34 = "04mr"; // 완결_완결웹툰_30슬롯_328X200
+ $pageid35 = "047q"; // 완결_배너_360X150
+ $pageid36 = "04mz"; // 완결_완결웹툰_30슬롯2_328X200
+ $pageid37 = "04n7"; // 완결_하단배너_670X400
+$post_id='71';
+$popstate='enable';
+$press_url='http://www.popapp.co.kr/tomix/md.php?MD=community2';
+$view_type='random';
+$post_link[0]['pln_start']=0;
+$post_link[0]['pln_end']=0;
+$post_link[0]['pln_url']='http://newspopcon.com/eco.asp?type=community2';
+$post_link[0]['pln_id']='52';
+}
+if($MD=='moreadd'){
+$sCode = "06kq"; // 트래픽 체크
+$pageid1 = "04Mq"; // 홈_상단_배너1_5슬롯_670X312
+ $pageid2 = "04NH"; // 홈_상단 배너2_4슬롯_302X200
+ $pageid3 = "04On"; // 요일별_월요일_웹툰_9슬롯_214X200
+ $pageid4 = "03xE"; // 홈_배너_1_360X150
+ $pageid5 = "04Nr"; // 홈_완결웹툰_6슬롯_328X200
+ $pageid6 = "03xP"; // 홈_배너_2_360X150
+ $pageid7 = "04Na"; // 홈_성인웹툰_6슬롯_328X200
+ $pageid8 = "04OD"; // 홈_주간 베스트_4슬롯_302X200
+ $pageid9 = "04OY"; // 홈_하단배너_3_670X400
+
+ // 요일별
+$pageid10 = "04On"; // 요일별_월요일_웹툰_9슬롯_214X200
+ $pageid11 = "04P6"; // 요일별_화요일_웹툰_9슬롯_214X200
+ $pageid12 = "04PS"; // 요일별_수요일_웹툰_9슬롯_214X200
+ $pageid13 = "04Po"; // 요일별_목요일_웹툰_9슬롯_214X200
+ $pageid14 = "04Q0"; // 요일별_금요일_웹툰_9슬롯_214X200
+ $pageid15 = "04QC"; // 요일별_토요일_웹툰_9슬롯_214X200
+ $pageid16 = "04QW"; // 요일별_일요일_웹툰_9슬롯_214X200
+ $pageid17 = "04SO"; // 요일별_하단배너_670X400
+
+ //해당 요일에 대한 키값을 배열 변수에 저장
+$weekPageId[1] = "04On"; // 요일별_월요일_웹툰_9슬롯_214X200
+ $weekPageId[2] = "04P6"; // 요일별_화요일_웹툰_9슬롯_214X200
+ $weekPageId[3] = "04PS"; // 요일별_수요일_웹툰_9슬롯_214X200
+ $weekPageId[4] = "04Po"; // 요일별_목요일_웹툰_9슬롯_214X200
+ $weekPageId[5] = "04Q0"; // 요일별_금요일_웹툰_9슬롯_214X200
+ $weekPageId[6] = "04QC"; // 요일별_토요일_웹툰_9슬롯_214X200
+ $weekPageId[0] = "04QW"; // 요일별_일요일_웹툰_9슬롯_214X200
+
+ // 성인
+$pageid18 = "04QO"; // 성인_투믹스 독점작_6슬롯_328X200
+ $pageid19 = "04R1"; // PD 강력추천작_302X200
+ $pageid20 = "048Z"; // 성인_배너_1_360X15
+ $pageid21 = "04Ri"; // 정주행 추천작_9슬롯_214X200
+ $pageid22 = "048l"; // 성인_배너_2_360X150
+ $pageid23 = "04SM"; // 성인_당신의 판타지를 이뤄줄 그녀들_214X200
+ $pageid24 = "04So"; // 성인_하단배너_670X400
+
+ // 장르별
+$pageid25 = "04Ql"; // 장르별_로맨스_웹툰_9슬롯_214X200
+ $pageid26 = "04R2"; // 장르별_액션_웹툰_9슬롯_214X200
+ $pageid27 = "048B"; // 장르별_배너_1_360X150
+ $pageid28 = "04RL"; // 장르별_스포츠_웹툰_9슬롯_214X200
+ $pageid29 = "04RY"; // 장르별_드라마_웹툰_9슬롯_214X200
+ $pageid30 = "048N"; // 장르별_배너_2_360X150
+ $pageid31 = "04Rv"; // 장르별_무협/판타지_웹툰_9슬롯_214X200
+ $pageid32 = "04S7"; // 장르별_코믹_웹툰_9슬롯_214X200
+ $pageid33 = "04T5"; // 장르별_하단배너_670X400
+
+ // 주간 베스트
+$pageid34 = "04TH"; // 완결_완결웹툰_30슬롯_328X200
+ $pageid35 = "047q"; // 완결_배너_360X150
+ $pageid36 = "04TJ"; // 완결_완결웹툰_30슬롯2_328X200
+ $pageid37 = "04Sh"; // 완결_하단배너_670X400
+$post_id='70';
+$popstate='disable';
+$press_url='http://www.popapp.co.kr/tomix/md.php?MD=moreadd';
+$view_type='random';
+}
+if($MD=='heraldpop'){
+$sCode = "03qm"; // 트래픽 체크
+$pageid1 = "03wL"; // 홈_상단_배너1_5슬롯_670X312
+ $pageid2 = "03wX"; // 홈_상단 배너2_5슬롯_302X200
+ $pageid3 = "03xq"; // 요일별_월요일_웹툰_9슬롯_214X200
+ $pageid4 = "03xE"; // 홈_배너_1_360X150
+ $pageid5 = "03wi"; // 홈_완결웹툰_6슬롯_328X200
+ $pageid6 = "03xP"; // 홈_배너_2_360X150
+ $pageid7 = "03wt"; // 홈_성인웹툰_6슬롯_328X200
+ $pageid8 = "03x4"; // 홈_주간 베스트_4슬롯_302X200
+ $pageid9 = "03xb"; // 홈_하단배너_3_670X400
+
+ // 요일별
+$pageid10 = "03xq"; // 요일별_월요일_웹툰_9슬롯_214X200
+ $pageid11 = "03y1"; // 요일별_화요일_웹툰_9슬롯_214X200
+ $pageid12 = "03yC"; // 요일별_수요일_웹툰_9슬롯_214X200
+ $pageid13 = "03yN"; // 요일별_목요일_웹툰_9슬롯_214X200
+ $pageid14 = "03yO"; // 요일별_금요일_웹툰_9슬롯_214X200
+ $pageid15 = "03yk"; // 요일별_토요일_웹툰_9슬롯_214X200
+ $pageid16 = "03yv"; // 요일별_일요일_웹툰_9슬롯_214X200
+ $pageid17 = "03z7"; // 요일별_하단배너_670X400
+
+ //해당 요일에 대한 키값을 배열 변수에 저장
+$weekPageId[1] = "03xq"; // 요일별_월요일_웹툰_9슬롯_214X200
+ $weekPageId[2] = "03y1"; // 요일별_화요일_웹툰_9슬롯_214X200
+ $weekPageId[3] = "03yC"; // 요일별_수요일_웹툰_9슬롯_214X200
+ $weekPageId[4] = "03yN"; // 요일별_목요일_웹툰_9슬롯_214X200
+ $weekPageId[5] = "03yO"; // 요일별_금요일_웹툰_9슬롯_214X200
+ $weekPageId[6] = "03yk"; // 요일별_토요일_웹툰_9슬롯_214X200
+ $weekPageId[0] = "03yv"; // 요일별_일요일_웹툰_9슬롯_214X200
+
+ // 성인
+$pageid18 = "042k"; // 성인_투믹스 독점작_6슬롯_328X200
+ $pageid19 = "042v"; // PD 강력추천작_302X200
+ $pageid20 = "048Z"; // 성인_배너_1_360X15
+ $pageid21 = "0436"; // 정주행 추천작_9슬롯_214X200
+ $pageid22 = "048l"; // 성인_배너_2_360X150
+ $pageid23 = "043H"; // 성인_당신의 판타지를 이뤄줄 그녀들_214X200
+ $pageid24 = "043S"; // 성인_하단배너_670X400
+
+ // 장르별
+$pageid25 = "040p"; // 장르별_로맨스_웹툰_9슬롯_214X200
+ $pageid26 = "0410"; // 장르별_액션_웹툰_9슬롯_214X200
+ $pageid27 = "048B"; // 장르별_배너_1_360X150
+ $pageid28 = "041B"; // 장르별_스포츠_웹툰_9슬롯_214X200
+ $pageid29 = "041M"; // 장르별_드라마_웹툰_9슬롯_214X200
+ $pageid30 = "048N"; // 장르별_배너_2_360X150
+ $pageid31 = "041X"; // 장르별_무협/판타지_웹툰_9슬롯_214X200
+ $pageid32 = "041i"; // 장르별_코믹_웹툰_9슬롯_214X200
+ $pageid33 = "041t"; // 장르별_하단배너_670X400
+
+ // 주간 베스트
+$pageid34 = "03zK"; // 완결_완결웹툰_30슬롯_328X200
+ $pageid35 = "047q"; // 완결_배너_360X150
+ $pageid36 = "049M"; // 완결_완결웹툰_30슬롯2_328X200
+ $pageid37 = "03zV"; // 완결_하단배너_670X400
+$post_id='68';
+$popstate='disable';
+$press_url='http://www.popapp.co.kr/tomix/md.php?MD=heraldpop';
+$view_type='';
+}
+if($MD=='ajunews'){
+$sCode = "03N6"; // 트래픽 체크
+$pageid1 = "03wI"; // 홈_상단_배너1_5슬롯_670X312
+ $pageid2 = "03wU"; // 홈_상단 배너2_5슬롯_302X200
+ $pageid3 = "03xn"; // 요일별_월요일_웹툰_9슬롯_214X200
+ $pageid4 = "03xE"; // 홈_배너_1_360X150
+ $pageid5 = "03wf"; // 홈_완결웹툰_6슬롯_328X200
+ $pageid6 = "03xP"; // 홈_배너_2_360X150
+ $pageid7 = "03wq"; // 홈_성인웹툰_6슬롯_328X200
+ $pageid8 = "03x1"; // 홈_주간 베스트_4슬롯_302X200
+ $pageid9 = "03xY"; // 홈_하단배너_3_670X400
+
+ // 요일별
+$pageid10 = "03xn"; // 요일별_월요일_웹툰_9슬롯_214X200
+ $pageid11 = "03xy"; // 요일별_화요일_웹툰_9슬롯_214X200
+ $pageid12 = "03y9"; // 요일별_수요일_웹툰_9슬롯_214X200
+ $pageid13 = "03yK"; // 요일별_목요일_웹툰_9슬롯_214X200
+ $pageid14 = "03yV"; // 요일별_금요일_웹툰_9슬롯_214X200
+ $pageid15 = "03yh"; // 요일별_토요일_웹툰_9슬롯_214X200
+ $pageid16 = "03ys"; // 요일별_일요일_웹툰_9슬롯_214X200
+ $pageid17 = "03z4"; // 요일별_하단배너_670X400
+
+ //해당 요일에 대한 키값을 배열 변수에 저장
+$weekPageId[1] = "03xn"; // 요일별_월요일_웹툰_9슬롯_214X200
+ $weekPageId[2] = "03xy"; // 요일별_화요일_웹툰_9슬롯_214X200
+ $weekPageId[3] = "03y9"; // 요일별_수요일_웹툰_9슬롯_214X200
+ $weekPageId[4] = "03yK"; // 요일별_목요일_웹툰_9슬롯_214X200
+ $weekPageId[5] = "03yV"; // 요일별_금요일_웹툰_9슬롯_214X200
+ $weekPageId[6] = "03yh"; // 요일별_토요일_웹툰_9슬롯_214X200
+ $weekPageId[0] = "03ys"; // 요일별_일요일_웹툰_9슬롯_214X200
+
+ // 성인
+$pageid18 = "042h"; // 성인_투믹스 독점작_6슬롯_328X200
+ $pageid19 = "042s"; // PD 강력추천작_302X200
+ $pageid20 = "048Z"; // 성인_배너_1_360X15
+ $pageid21 = "0433"; // 정주행 추천작_9슬롯_214X200
+ $pageid22 = "048l"; // 성인_배너_2_360X150
+ $pageid23 = "043E"; // 성인_당신의 판타지를 이뤄줄 그녀들_214X200
+ $pageid24 = "043P"; // 성인_하단배너_670X400
+
+ // 장르별
+$pageid25 = "040m"; // 장르별_로맨스_웹툰_9슬롯_214X200
+ $pageid26 = "040x"; // 장르별_액션_웹툰_9슬롯_214X200
+ $pageid27 = "048B"; // 장르별_배너_1_360X150
+ $pageid28 = "0418"; // 장르별_스포츠_웹툰_9슬롯_214X200
+ $pageid29 = "041J"; // 장르별_드라마_웹툰_9슬롯_214X200
+ $pageid30 = "048N"; // 장르별_배너_2_360X150
+ $pageid31 = "041U"; // 장르별_무협/판타지_웹툰_9슬롯_214X200
+ $pageid32 = "041f"; // 장르별_코믹_웹툰_9슬롯_214X200
+ $pageid33 = "041q"; // 장르별_하단배너_670X400
+
+ // 주간 베스트
+$pageid34 = "03zH"; // 완결_완결웹툰_30슬롯_328X200
+ $pageid35 = "047q"; // 완결_배너_360X150
+ $pageid36 = "049J"; // 완결_완결웹툰_30슬롯2_328X200
+ $pageid37 = "03zS"; // 완결_하단배너_670X400
+$post_id='67';
+$popstate='disable';
+$press_url='http://www.popapp.co.kr/tomix/md.php?MD=ajunews';
+$view_type='';
 }
 if($MD=='genius'){
 $sCode = "066L"; // 트래픽 체크
@@ -251,8 +820,8 @@ $post_link[0]['pln_end']=0;
 $post_link[0]['pln_url']='http://newspopcon.com/eco.asp?type=adpop';
 $post_link[0]['pln_id']='44';
 }
-if($MD=='10'){
-$sCode = ""; // 트래픽 체크
+if($MD=='tfnews'){
+$sCode = "06pu"; // 트래픽 체크
 $pageid1 = "04KV"; // 홈_상단_배너1_5슬롯_670X312
  $pageid2 = "04Kf"; // 홈_상단 배너2_5슬롯_302X200
  $pageid3 = "04LU"; // 요일별_월요일_웹툰_9슬롯_214X200
@@ -308,16 +877,16 @@ $pageid34 = "04Mb"; // 완결_완결웹툰_30슬롯_328X200
  $pageid36 = "04Mp"; // 완결_완결웹툰_30슬롯2_328X200
  $pageid37 = "04Ml"; // 완결_하단배너_670X400
 $post_id='54';
-$popstate='enable';
-$press_url='http://www.popapp.co.kr/tomix/md.php?MD=10';
+$popstate='disable';
+$press_url='http://www.popapp.co.kr/tomix/md.php?MD=tfnews';
 $view_type='random';
 $post_link[0]['pln_start']=0;
 $post_link[0]['pln_end']=0;
-$post_link[0]['pln_url']='http://newspopcon.com/eco.asp?type=10';
+$post_link[0]['pln_url']='http://newspopcon.com/eco.asp?type=tfnews';
 $post_link[0]['pln_id']='42';
 }
-if($MD=='9'){
-$sCode = ""; // 트래픽 체크
+if($MD=='community3'){
+$sCode = "06nT"; // 트래픽 체크
 $pageid1 = "04N4"; // 홈_상단_배너1_5슬롯_670X312
  $pageid2 = "04NR"; // 홈_상단 배너2_5슬롯_302X200
  $pageid3 = "04Oy"; // 요일별_월요일_웹툰_9슬롯_214X200
@@ -374,15 +943,15 @@ $pageid34 = "04TS"; // 완결_완결웹툰_30슬롯_328X200
  $pageid37 = "04St"; // 완결_하단배너_670X400
 $post_id='53';
 $popstate='disable';
-$press_url='http://www.popapp.co.kr/tomix/md.php?MD=9';
+$press_url='http://www.popapp.co.kr/tomix/md.php?MD=community3';
 $view_type='random';
 $post_link[0]['pln_start']=0;
 $post_link[0]['pln_end']=0;
-$post_link[0]['pln_url']='http://newspopcon.com/eco.asp?type=9';
+$post_link[0]['pln_url']='http://newspopcon.com/eco.asp?type=community3';
 $post_link[0]['pln_id']='41';
 }
-if($MD=='8'){
-$sCode = ""; // 트래픽 체크
+if($MD=='community1'){
+$sCode = "06nS"; // 트래픽 체크
 $pageid1 = "04ht"; // 홈_상단_배너1_5슬롯_670X312
  $pageid2 = "04i5"; // 홈_상단 배너2_5슬롯_302X200
  $pageid3 = "04if"; // 요일별_월요일_웹툰_9슬롯_214X200
@@ -439,15 +1008,15 @@ $pageid34 = "04js"; // 완결_완결웹툰_30슬롯_328X200
  $pageid37 = "04kK"; // 완결_하단배너_670X400
 $post_id='52';
 $popstate='disable';
-$press_url='http://www.popapp.co.kr/tomix/md.php?MD=8';
+$press_url='http://www.popapp.co.kr/tomix/md.php?MD=community1';
 $view_type='random';
 $post_link[0]['pln_start']=0;
 $post_link[0]['pln_end']=0;
-$post_link[0]['pln_url']='http://newspopcon.com/eco.asp?type=8';
+$post_link[0]['pln_url']='http://newspopcon.com/eco.asp?type=community1';
 $post_link[0]['pln_id']='40';
 }
-if($MD=='7'){
-$sCode = ""; // 트래픽 체크
+if($MD=='ymidea'){
+$sCode = "06mD"; // 트래픽 체크
 $pageid1 = "04dZ"; // 홈_상단_배너1_5슬롯_670X312
  $pageid2 = "04da"; // 홈_상단 배너2_5슬롯_302X200
  $pageid3 = "04dh"; // 요일별_월요일_웹툰_9슬롯_214X200
@@ -504,15 +1073,15 @@ $pageid34 = "04ds"; // 완결_완결웹툰_30슬롯_328X200
  $pageid37 = "04dv"; // 완결_하단배너_670X400
 $post_id='51';
 $popstate='disable';
-$press_url='http://www.popapp.co.kr/tomix/md.php?MD=7';
+$press_url='http://www.popapp.co.kr/tomix/md.php?MD=ymidea';
 $view_type='random';
 $post_link[0]['pln_start']=0;
 $post_link[0]['pln_end']=0;
-$post_link[0]['pln_url']='http://newspopcon.com/eco.asp?type=7';
+$post_link[0]['pln_url']='http://newspopcon.com/eco.asp?type=ymidea';
 $post_link[0]['pln_id']='39';
 }
-if($MD=='6'){
-$sCode = ""; // 트래픽 체크
+if($MD=='ymideaweb'){
+$sCode = "06mE"; // 트래픽 체크
 $pageid1 = "04Mx"; // 홈_상단_배너1_5슬롯_670X312
  $pageid2 = "04NN"; // 홈_상단 배너2_5슬롯_302X200
  $pageid3 = "04Ot"; // 요일별_월요일_웹툰_9슬롯_214X200
@@ -569,15 +1138,15 @@ $pageid34 = "04TO"; // 완결_완결웹툰_30슬롯_328X200
  $pageid37 = "04Sn"; // 완결_하단배너_670X400
 $post_id='50';
 $popstate='disable';
-$press_url='http://www.popapp.co.kr/tomix/md.php?MD=6';
+$press_url='http://www.popapp.co.kr/tomix/md.php?MD=ymideaweb';
 $view_type='random';
 $post_link[0]['pln_start']=0;
 $post_link[0]['pln_end']=0;
 $post_link[0]['pln_url']='http://newspopcon.com/eco.asp?type=6';
 $post_link[0]['pln_id']='38';
 }
-if($MD=='5'){
-$sCode = ""; // 트래픽 체크
+if($MD=='topstarnews'){
+$sCode = "06Yo"; // 트래픽 체크
 $pageid1 = "04Mv"; // 홈_상단_배너1_5슬롯_670X312
  $pageid2 = "04NM"; // 홈_상단 배너2_5슬롯_302X200
  $pageid3 = "04Os"; // 요일별_월요일_웹툰_9슬롯_214X200
@@ -634,15 +1203,15 @@ $pageid34 = "04TL"; // 완결_완결웹툰_30슬롯_328X200
  $pageid37 = "04Sl"; // 완결_하단배너_670X400
 $post_id='49';
 $popstate='disable';
-$press_url='http://www.popapp.co.kr/tomix/md.php?MD=5';
+$press_url='http://www.popapp.co.kr/tomix/md.php?MD=topstarnews';
 $view_type='random';
 $post_link[0]['pln_start']=0;
 $post_link[0]['pln_end']=0;
-$post_link[0]['pln_url']='http://newspopcon.com/eco.asp?type=5';
+$post_link[0]['pln_url']='http://newspopcon.com/eco.asp?type=topstarnews';
 $post_link[0]['pln_id']='37';
 }
-if($MD=='geni'){
-$sCode = "06Ss"; // 트래픽 체크
+if($MD=='adcommunity'){
+$sCode = "06kp"; // 트래픽 체크
 $pageid1 = "04uu"; // 홈_상단_배너1_5슬롯_670X312
  $pageid2 = "04uy"; // 홈_상단 배너2_5슬롯_302X200
  $pageid3 = "04u8"; // 요일별_월요일_웹툰_9슬롯_214X200
@@ -699,7 +1268,7 @@ $pageid34 = "04tc"; // 완결_완결웹툰_30슬롯_328X200
  $pageid37 = "04sZ"; // 완결_하단배너_670X400
 $post_id='48';
 $popstate='disable';
-$press_url='http://www.popapp.co.kr/tomix/md.php?MD=geni';
+$press_url='http://www.popapp.co.kr/tomix/md.php?MD=adcommunity';
 $view_type='random';
 $post_link[0]['pln_start']=0;
 $post_link[0]['pln_end']=0;
@@ -1087,201 +1656,6 @@ $post_link[0]['pln_start']=0;
 $post_link[0]['pln_end']=0;
 $post_link[0]['pln_url']='http://newspopcon.com/pop.asp?type=hubnews';
 $post_link[0]['pln_id']='20';
-}
-if($MD=='jemin'){
-$sCode = "05ex"; // 트래픽 체크
-    $pageid1 = "04cT"; // 홈_상단_배너1_5슬롯_670X312
-    $pageid2 = "04cX"; // 홈_상단 배너2_4슬롯_302X200
-    $pageid3 = "04wU"; // 요일별_월요일_웹툰_9슬롯_214X200
-    $pageid4 = "03xE"; // 홈_배너_1_360X150
-    $pageid5 = "04cf"; // 홈_완결웹툰_6슬롯_328X200
-    $pageid6 = "03xP"; // 홈_배너_2_360X150
-    $pageid7 = "04cb"; // 홈_성인웹툰_6슬롯_328X200
-    $pageid8 = "04cj"; // 홈_주간 베스트_4슬롯_302X200
-    $pageid9 = "04cn"; // 홈_하단배너_3_670X400
-
-    // 요일별
-    $pageid10 = "04wU"; // 요일별_월요일_웹툰_9슬롯_214X200
-    $pageid11 = "04wV"; // 요일별_화요일_웹툰_9슬롯_214X200
-    $pageid12 = "04wY"; // 요일별_수요일_웹툰_9슬롯_214X200
-    $pageid13 = "04wZ"; // 요일별_목요일_웹툰_9슬롯_214X200
-    $pageid14 = "04wc"; // 요일별_금요일_웹툰_9슬롯_214X200
-    $pageid15 = "04wd"; // 요일별_토요일_웹툰_9슬롯_214X200
-    $pageid16 = "04wg"; // 요일별_일요일_웹툰_9슬롯_214X200
-    $pageid17 = "04wB"; // 요일별_하단배너_670X400
-
-    //해당 요일에 대한 키값을 배열 변수에 저장
-    $weekPageId[1] = "04wU"; // 요일별_월요일_웹툰_9슬롯_214X200
-    $weekPageId[2] = "04wV"; // 요일별_화요일_웹툰_9슬롯_214X200
-    $weekPageId[3] = "04wY"; // 요일별_수요일_웹툰_9슬롯_214X200
-    $weekPageId[4] = "04wZ"; // 요일별_목요일_웹툰_9슬롯_214X200
-    $weekPageId[5] = "04wc"; // 요일별_금요일_웹툰_9슬롯_214X200
-    $weekPageId[6] = "04wd"; // 요일별_토요일_웹툰_9슬롯_214X200
-    $weekPageId[0] = "04wg"; // 요일별_일요일_웹툰_9슬롯_214X200
-
-    // 성인
-    $pageid18 = "04vy"; // 성인_투믹스 독점작_6슬롯_328X200
-    $pageid19 = "04vv"; // PD 강력추천작_302X200
-    $pageid20 = "048Z"; // 성인_배너_1_360X15
-    $pageid21 = "04w6"; // 정주행 추천작_9슬롯_214X200
-    $pageid22 = "048l"; // 성인_배너_2_360X150
-    $pageid23 = "04vz"; // 성인_당신의 판타지를 이뤄줄 그녀들_214X200
-    $pageid24 = "04wE"; // 성인_하단배너_670X400
-
-    // 장르별
-    $pageid25 = "04wh"; // 장르별_로맨스_웹툰_9슬롯_214X200
-    $pageid26 = "04wi"; // 장르별_액션_웹툰_9슬롯_214X200
-    $pageid27 = "048B"; // 장르별_배너_1_360X150
-    $pageid28 = "04wj"; // 장르별_스포츠_웹툰_9슬롯_214X200
-    $pageid29 = "04wk"; // 장르별_드라마_웹툰_9슬롯_214X200
-    $pageid30 = "048N"; // 장르별_배너_2_360X150
-    $pageid31 = "04wl"; // 장르별_무협/판타지_웹툰_9슬롯_214X200
-    $pageid32 = "04wm"; // 장르별_코믹_웹툰_9슬롯_214X200
-    $pageid33 = "04wD"; // 장르별_하단배너_670X400
-
-    // 주간 베스트
-    $pageid34 = "04wQ"; // 완결_완결웹툰_30슬롯_328X200
-    $pageid35 = "047q"; // 완결_배너_360X150
-    $pageid36 = "04wS"; // 완결_완결웹툰_30슬롯2_328X200
-    $pageid37 = "04wC"; // 완결_하단배너_670X400
-$post_id='17';
-$popstate='enable';
-$press_url='http://www.popapp.co.kr/tomix/md.php?MD=jemin';
-$view_type='random';
-$post_link[0]['pln_start']=0;
-$post_link[0]['pln_end']=0;
-$post_link[0]['pln_url']='http://newspopcon.com/pop.asp?type=jemin';
-$post_link[0]['pln_id']='15';
-}
-if($MD=='newstown'){
-$sCode = "05ew"; // 트래픽 체크
-    $pageid1 = "04cR"; // 홈_상단_배너1_5슬롯_670X312
-    $pageid2 = "04cV"; // 홈_상단 배너2_4슬롯_302X200
-    $pageid3 = "04wT"; // 요일별_월요일_웹툰_9슬롯_214X200
-    $pageid4 = "03xE"; // 홈_배너_1_360X150
-    $pageid5 = "04cd"; // 홈_완결웹툰_6슬롯_328X200
-    $pageid6 = "03xP"; // 홈_배너_2_360X150
-    $pageid7 = "04cZ"; // 홈_성인웹툰_6슬롯_328X200
-    $pageid8 = "04ch"; // 홈_주간 베스트_4슬롯_302X200
-    $pageid9 = "04cl"; // 홈_하단배너_3_670X400
-
-    // 요일별
-    $pageid10 = "04wT"; // 요일별_월요일_웹툰_9슬롯_214X200
-    $pageid11 = "04wW"; // 요일별_화요일_웹툰_9슬롯_214X200
-    $pageid12 = "04wX"; // 요일별_수요일_웹툰_9슬롯_214X200
-    $pageid13 = "04wa"; // 요일별_목요일_웹툰_9슬롯_214X200
-    $pageid14 = "04wb"; // 요일별_금요일_웹툰_9슬롯_214X200
-    $pageid15 = "04we"; // 요일별_토요일_웹툰_9슬롯_214X200
-    $pageid16 = "04wf"; // 요일별_일요일_웹툰_9슬롯_214X200
-    $pageid17 = "04w8"; // 요일별_하단배너_670X400
-
-        //해당 요일에 대한 키값을 배열 변수에 저장
-    $weekPageId[1] = "04wT"; // 요일별_월요일_웹툰_9슬롯_214X200
-    $weekPageId[2] = "04wW"; // 요일별_화요일_웹툰_9슬롯_214X200
-    $weekPageId[3] = "04wX"; // 요일별_수요일_웹툰_9슬롯_214X200
-    $weekPageId[4] = "04wa"; // 요일별_목요일_웹툰_9슬롯_214X200
-    $weekPageId[5] = "04wb"; // 요일별_금요일_웹툰_9슬롯_214X200
-    $weekPageId[6] = "04we"; // 요일별_토요일_웹툰_9슬롯_214X200
-    $weekPageId[0] = "04wf"; // 요일별_일요일_웹툰_9슬롯_214X200
-
-    // 성인
-    $pageid18 = "04vx"; // 성인_투믹스 독점작_6슬롯_328X200
-    $pageid19 = "04vu"; // PD 강력추천작_302X200
-    $pageid20 = "048Z"; // 성인_배너_1_360X15
-    $pageid21 = "04w5"; // 정주행 추천작_9슬롯_214X200
-    $pageid22 = "048l"; // 성인_배너_2_360X150
-    $pageid23 = "04w0"; // 성인_당신의 판타지를 이뤄줄 그녀들_214X200
-    $pageid24 = "04w7"; // 성인_하단배너_670X400
-
-    // 장르별
-    $pageid25 = "04wo"; // 장르별_로맨스_웹툰_9슬롯_214X200
-    $pageid26 = "04wp"; // 장르별_액션_웹툰_9슬롯_214X200
-    $pageid27 = "048B"; // 장르별_배너_1_360X150
-    $pageid28 = "04wq"; // 장르별_스포츠_웹툰_9슬롯_214X200
-    $pageid29 = "04wr"; // 장르별_드라마_웹툰_9슬롯_214X200
-    $pageid30 = "048N"; // 장르별_배너_2_360X150
-    $pageid31 = "04ws"; // 장르별_무협/판타지_웹툰_9슬롯_214X200
-    $pageid32 = "04wn"; // 장르별_코믹_웹툰_9슬롯_214X200
-    $pageid33 = "04wA"; // 장르별_하단배너_670X400
-
-    // 주간 베스트
-    $pageid34 = "04wP"; // 완결_완결웹툰_30슬롯_328X200
-    $pageid35 = "047q"; // 완결_배너_360X150
-    $pageid36 = "04wR"; // 완결_완결웹툰_30슬롯2_328X200
-    $pageid37 = "04w9"; // 완결_하단배너_670X400
-$post_id='16';
-$popstate='enable';
-$press_url='http://www.popapp.co.kr/tomix/md.php?MD=newstown';
-$view_type='random';
-$post_link[0]['pln_start']=0;
-$post_link[0]['pln_end']=0;
-$post_link[0]['pln_url']='http://newspopcon.com/pop.asp?type=newstown';
-$post_link[0]['pln_id']='14';
-}
-if($MD=='moodeung'){
-$sCode = "05ev"; // 트래픽 체크
-    $pageid1 = "03wD"; // 홈_상단_배너1_5슬롯_670X312
-    $pageid2 = "03wP"; // 홈_상단 배너2_4슬롯_302X200
-    $pageid3 = "03xi"; // 요일별_월요일_웹툰_9슬롯_214X200
-    $pageid4 = "03xE"; // 홈_배너_1_360X150
-    $pageid5 = "03wa"; // 홈_완결웹툰_6슬롯_328X200
-    $pageid6 = "03xP"; // 홈_배너_2_360X150
-    $pageid7 = "03wl"; // 홈_성인웹툰_6슬롯_328X200
-    $pageid8 = "03ww"; // 홈_주간 베스트_4슬롯_302X200
-    $pageid9 = "03xT"; // 홈_하단배너_3_670X400
-
-    // 요일별
-    $pageid10 = "03xi"; // 요일별_월요일_웹툰_9슬롯_214X200
-    $pageid11 = "03xt"; // 요일별_화요일_웹툰_9슬롯_214X200
-    $pageid12 = "03y4"; // 요일별_수요일_웹툰_9슬롯_214X200
-    $pageid13 = "03yF"; // 요일별_목요일_웹툰_9슬롯_214X200
-    $pageid14 = "03yQ"; // 요일별_금요일_웹툰_9슬롯_214X200
-    $pageid15 = "03yc"; // 요일별_토요일_웹툰_9슬롯_214X200
-    $pageid16 = "03yn"; // 요일별_일요일_웹툰_9슬롯_214X200
-    $pageid17 = "03yz"; // 요일별_하단배너_670X400
-
-        //해당 요일에 대한 키값을 배열 변수에 저장
-    $weekPageId[1] = "03xi"; // 요일별_월요일_웹툰_9슬롯_214X200
-    $weekPageId[2] = "03xt"; // 요일별_화요일_웹툰_9슬롯_214X200
-    $weekPageId[3] = "03y4"; // 요일별_수요일_웹툰_9슬롯_214X200
-    $weekPageId[4] = "03yF"; // 요일별_목요일_웹툰_9슬롯_214X200
-    $weekPageId[5] = "03yQ"; // 요일별_금요일_웹툰_9슬롯_214X200
-    $weekPageId[6] = "03yc"; // 요일별_토요일_웹툰_9슬롯_214X200
-    $weekPageId[0] = "03yn"; // 요일별_일요일_웹툰_9슬롯_214X200
-
-    // 성인
-    $pageid18 = "042c"; // 성인_투믹스 독점작_6슬롯_328X200
-    $pageid19 = "042n"; // PD 강력추천작_302X200
-    $pageid20 = "048Z"; // 성인_배너_1_360X15
-    $pageid21 = "042y"; // 정주행 추천작_9슬롯_214X200
-    $pageid22 = "048l"; // 성인_배너_2_360X150
-    $pageid23 = "0439"; // 성인_당신의 판타지를 이뤄줄 그녀들_214X200
-    $pageid24 = "043K"; // 성인_하단배너_670X400
-
-    // 장르별
-    $pageid25 = "040h"; // 장르별_로맨스_웹툰_9슬롯_214X200
-    $pageid26 = "040s"; // 장르별_액션_웹툰_9슬롯_214X200
-    $pageid27 = "048B"; // 장르별_배너_1_360X150
-    $pageid28 = "0413"; // 장르별_스포츠_웹툰_9슬롯_214X200
-    $pageid29 = "041E"; // 장르별_드라마_웹툰_9슬롯_214X200
-    $pageid30 = "048N"; // 장르별_배너_2_360X150
-    $pageid31 = "041P"; // 장르별_무협/판타지_웹툰_9슬롯_214X200
-    $pageid32 = "041a"; // 장르별_코믹_웹툰_9슬롯_214X200
-    $pageid33 = "041l"; // 장르별_하단배너_670X400
-
-    // 주간 베스트
-    $pageid34 = "03zC"; // 완결_완결웹툰_30슬롯_328X200
-    $pageid35 = "047q"; // 완결_배너_360X150
-    $pageid36 = "049E"; // 완결_완결웹툰_30슬롯2_328X200
-    $pageid37 = "03zN"; // 완결_하단배너_670X400
-$post_id='15';
-$popstate='enable';
-$press_url='http://www.popapp.co.kr/tomix/md.php?MD=moodeung';
-$view_type='random';
-$post_link[0]['pln_start']=0;
-$post_link[0]['pln_end']=0;
-$post_link[0]['pln_url']='http://newspopcon.com/pop.asp?type=moodeung';
-$post_link[0]['pln_id']='13';
 }
 if($MD=='default'){
 $sCode = "03Kq"; // 트래픽 체크
